@@ -1,0 +1,49 @@
+:root {
+  --color-1: #d2584e;
+  --color-2: #1d1919;
+  --color-3: #ecab83;
+  --color-4: #f6efeb;
+  --color-5: #aea093;
+  --color-6: #ffaaa3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(var(--color-1), var(--color-6));
+}
+h1 {
+  margin-bottom: 50px;
+  padding: 20px 0;
+  color: var(--color-4);
+  text-align: center;
+}
+main h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.course {
+  width: 30%;
+  padding: 10px;
+  background: linear-gradient(var(--color-6), var(--color-1));
+  border: 3px solid var(--color-5);
+  border-radius: 10px;
+}
+h3 {
+  color: var(--color-2);
+}
+span {
+  color: var(--color-4);
+}
+p {
+  color: var(--color-2);
+}
